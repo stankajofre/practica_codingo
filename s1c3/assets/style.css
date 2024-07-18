@@ -1,0 +1,41 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: yellow;
+}
+
+/*selector etiqueta elemento o tag vale 000*/
+h1 {
+    color: blueviolet;
+}
+
+/*selector clase vale 010*/
+.hola {
+    color: blue;
+}
+
+/* selector id vale 100 en especifidad*/
+#abcd {
+    color: red;
+}
+
+#container p {
+    font-size: 16px;
+    background-color: #333;
+}
+
+/* Estilo para los párrafos dentro del contenedor*/
+
+#container p.highlight {
+    font-weight: bold;
+    color: #ff0000;
+    /* Rojo */
+}
+
+#container p {
+    font-weight: bold;
+    color: #ffffff;
+    /* Blanco */
+}
